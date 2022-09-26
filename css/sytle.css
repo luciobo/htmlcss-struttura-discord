@@ -17,7 +17,7 @@ ul {
 }
 
 nav {
-    padding: 8px 0;
+    
     background-color: bisque;
 }
 
@@ -25,16 +25,100 @@ nav {
 .conteiner {
     margin: 0 auto;
     width: 920px;
-    border: 1px solid blue;
+    
+}
+
+.conteiner-sec {
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 20px;
 }
 
 header {
     background-color: lightblue;
+    padding: 8px 0;
 }
 
 .flex-header {
     display: flex;
     justify-content: space-between;
+    
+}
+
+.flex-header > * {
+    border : 1px solid red;
     padding: 8px;
 }
 
+.header-col-lateral {
+    width : 20%;
+}
+
+.header-col-central {
+    width : 60%;
+}
+
+.riempimento {
+    padding: 50px;
+}
+
+.section-1 {
+    background-color: blue;
+}
+
+.section-fill {
+    display: flex;
+    justify-content: space-around;
+    border : 1px solid red;
+}
+
+.col-1 {
+    background-color: blueviolet;
+    width: 30%;
+    padding: 60px;
+    border: 1px solid black;
+}
+
+.col-2 {
+    background-color: brown;
+    width: 70%;
+    padding: 60px;
+    border: 1px solid green;
+}
+
+.sfondo-grigio {
+    background-color: lightgray;
+}
+
+.box-inferiore {
+    background-color: brown;
+    width: 100%;
+    padding: 200px;
+}
+
+
+.sfondo-nero {
+    display: flex;
+    align-content: stretch;
+    background-color: black;
+}
+
+.col-3 {
+    background-color: blueviolet;
+    width: 30%;
+    padding: 60px;
+    border: 1px solid black;
+}
+
+.col-4 {
+    background-color: brown;
+    width: 70%;
+    padding: 60px;
+    border: 1px solid green;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;  
+}
