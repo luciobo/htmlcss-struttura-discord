@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section {
+    padding: 40px 0; 
+}
+
+ul {
+    display: flex;
+    column-gap: 6px;
+    list-style: none;
+}
+
+nav {
+    padding: 8px 0;
+    background-color: bisque;
+}
+
+
+.conteiner {
+    margin: 0 auto;
+    width: 920px;
+    border: 1px solid blue;
+}
+
+header {
+    background-color: lightblue;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
